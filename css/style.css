@@ -1,11 +1,6 @@
 body {margin: 0px;}
 
-div {
-	display: flex;
-	align-content: center;
-	justify-content: center;
-}
-
-div {
-	margin: 0px auto;
+.b1 {
+	margin-top: 12%;
+	margin-left: 42%;
 }
