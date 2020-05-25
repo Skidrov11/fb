@@ -1,5 +1,11 @@
 body {margin: 0px;}
 
+
+.container {
+	max-width: 960px;
+	margin: 0px auto; 
+}
+
 /* header */
 .header {
 	background-color: #766C69;
@@ -7,18 +13,28 @@ body {margin: 0px;}
 	height: 70px;
 }
 
-/*-------------------------------------------------*/
 
+/*-------------------------------------------------*/
+/* logo */
+.logo {
+	color: #223243;
+	font-size: 30px;
+	display: inline-block;
+}
+
+.logo a {
+	text-decoration: none;
+}
+
+span {
+	color: #F27622;
+}
 /* menu */
 .menu {
 	overflow: auto;
+	display: inline-block;
 }
 
-ul {
-	position: absolute;
-	right: 130px;
-	margin-top: 20px;
-}
 
 li {
 	list-style-type: none;
@@ -26,13 +42,13 @@ li {
 	margin-left: 50px;
 }
 
-.menu_a {
+li a{
 	font-size: 20px;
 	color: black;
 	text-decoration: none;
 }
 
-.menu_a:hover {
+li a:hover {
 	color: white;
 }
 
