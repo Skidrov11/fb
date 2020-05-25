@@ -5,3 +5,7 @@ div {
 	align-content: center;
 	justify-content: center;
 }
+
+div {
+	margin: 0px auto;
+}
